@@ -12,6 +12,7 @@ function Portfolio(props) {
         <section>
             <h2>Miles Ahead</h2>
             <p>A fitness tracking app</p>
+            <a href="https://github.com/prestonrl/miles-ahead">github repository</a>
             <div className="flex-row">
                 <a href="https://miles-ahead.herokuapp.com/login" >
                 <img 
@@ -23,6 +24,7 @@ function Portfolio(props) {
             </div>
             <h2>International Space Station Proximity</h2>
             <p>Find out how far away the ISS is</p>
+            <a href="https://github.com/prestonrl/iss-location">github repository</a>
             <div className="flex-row">
                 <a href="https://prestonrl.github.io/iss-location/">
                 <img
@@ -34,6 +36,7 @@ function Portfolio(props) {
             </div>
             <h2>Coding quiz</h2>
             <p>Challenge yourself with this quick coding quiz</p>
+            <a href="https://github.com/prestonrl/coding-quiz">github repository</a>
             <div className="flex-row">
                 <a href="https://prestonrl.github.io/coding-quiz/">
                 <img
@@ -45,6 +48,7 @@ function Portfolio(props) {
             </div>
             <h2>Note Taker</h2>
             <p>A place to store thoughts</p>
+            <a href="https://github.com/prestonrl/note-taker">github repository</a>
             <div className="flex-row">
                 <a href="https://note-taker-pl.herokuapp.com/">
                 <img
@@ -56,6 +60,7 @@ function Portfolio(props) {
             </div>
             <h2>The Tech Blog</h2>
             <p>A blogging site for the tech enthusiast </p>
+            <a href="https://github.com/prestonrl/tech-blog">github repository</a>
             <div className="flex-row">
                 <a href="https://thawing-scrubland-77713.herokuapp.com/">
                 <img
@@ -64,9 +69,11 @@ function Portfolio(props) {
                     className="img-thumbnail mx-1"
                 />
                 </a>
+                
             </div>
             <h2>Weather Dashboard</h2>
             <p>Check the weather around the world </p>
+            <a href="https://github.com/prestonrl/weather-dashboard">github repository</a>
             <div className="flex-row">
                 <a href="https://prestonrl.github.io/weather-dashboard/" >
                 <img
