@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { Fragment } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
@@ -6,23 +7,19 @@ import Portfolio from './components/Portfolio';
 import './App.css';
 
 function App() {
-
-  const [contactSelected, setContactSelected] = useState(false);
-
-  return (
-    <div>
-      <Nav></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Portfolio></Portfolio>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
-    </div>
+    return (
+      <Router>
+        <div>
+          <Nav></Nav>
+          <main>
+            <Switch>
+              <Route exact path='/' component={About} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={ContactForm}/>
+            </Switch>
+          </main>
+        </div>
+      </Router>
   );
 }
 

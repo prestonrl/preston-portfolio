@@ -1,40 +1,35 @@
 import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import { Link } from 'react-router-dom';
 
-function Nav(props) {
-    const {
-        contactSelected,
-        currentCategory,
-        setContactSelected,
-    } = props;
 
+function Nav() {
     return (
         <header className="flex-row px-1">
             <h2>
                 <a data-testid="link" href="/">
-                    Preston Larson 
+                    Preston Larson
                 </a>
+                <p>Web Developer</p>
             </h2>
-            <h3>Web Developer</h3>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+                        <Link to='/'>
                             About me
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-2">
-                        <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+                        <Link to='/portfolio'>
                             Portfolio
-                        </a>
-                    </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                        </Link>
                     </li>
                     <li className="mx-2">
-                        <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+                        <Link to='/contact'>Contact</Link>
+                    </li>
+                    <li className="mx-2">
+                        <Link to='/resume'>
                             Resume
-                        </a>
+                        </Link>
                     </li>
                     
                 </ul>
