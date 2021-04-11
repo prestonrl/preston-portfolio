@@ -6,7 +6,7 @@ function Nav() {
     return (
         <header className="flex-row px-1">
             <h2 class="title">
-                <a data-testid="link" href="/">
+                <a data-testid="link" href="/preston-portfolio">
                     Preston Larson
                 </a>
                 <p class='subtitle'>Web Developer</p>
@@ -14,7 +14,7 @@ function Nav() {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <Link to='/'>
+                        <Link to='/preston-portfolio'>
                             About me
                         </Link>
                     </li>

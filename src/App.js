@@ -15,7 +15,7 @@ function App() {
           <Nav></Nav>
           <main>
             <Switch>
-              <Route exact path='/' component={About} />
+              <Route exact path='/preston-portfolio' component={About} />
               <Route exact path='/portfolio' component={Portfolio} />
               <Route exact path='/contact' component={ContactForm}/>
               <Route exact path='/resume' component={Resume} />
