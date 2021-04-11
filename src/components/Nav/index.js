@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 
 function Nav() {
     return (
         <header className="flex-row px-1">
-            <h2>
+            <h2 class="title">
                 <a data-testid="link" href="/">
                     Preston Larson
                 </a>
-                <p>Web Developer</p>
+                <p class='subtitle'>Web Developer</p>
             </h2>
             <nav>
                 <ul className="flex-row">

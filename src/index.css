@@ -4,7 +4,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #e8ebe2;
   --secondary: #f3a847;
   --tertiary: #b12704;
   --light: #fafafa;
@@ -45,7 +45,7 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin: 5px 0;
+  
   line-height: 1.25;
 }
 
@@ -288,4 +288,30 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.footer {
+  font-size: 3.25rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.center {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
+
+.subtitle {
+  margin: 0 45px
+}
+
+.title {
+  margin: 15px 15px;
+  font-size: 2.50rem;
+}
+
+nav {
+  margin: 25px 0;
 }

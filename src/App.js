@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
               <Route exact path="/contact" component={ContactForm}/>
             </Switch>
           </main>
+          <Footer></Footer>
         </div>
       </Router>
   );
