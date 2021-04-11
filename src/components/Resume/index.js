@@ -7,10 +7,11 @@ function Resume() {
         <div>
             <p>Click link to download my resume.</p>
             <div class='center'>
-                <a class='resume' href='./assets/ResumeFeb2020.pdf' download><AiOutlineDownload /></a>
+                <a class='resume' href='/assets/ResumeFeb2020.pdf' download type='application/pdf'><AiOutlineDownload /></a>
             </div>
         </div>
     );
 }
+
 
 export default Resume;

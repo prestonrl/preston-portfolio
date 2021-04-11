@@ -3,37 +3,26 @@
 ## Description
 
 
-An overview of me and my web development projects.
+An overview of me and my web development projects. [Deployed](https://prestonrl.github.io/preston-portfolio/)
 
-![image]()
+![image](https://user-images.githubusercontent.com/70044796/114296193-2780e600-9a67-11eb-9bef-c7ffaa409873.png)
 
 
 ## Contents
-* [Installing](#Installing)
 * [Usage](#Usage)
 * [Built With](#Built-With)
 * [Questions](#Questions)
 
 <br />
 
-## Installing
-* Navigate to the [website](https://budget-tracker-plarson.herokuapp.com/)
-* From URL bar click "install" icon
-
-<br />
-
 ## Usage
-- The user can add transactions to the budget tracker. If the internet connection is lost then the service worker and idb will save the data and sync the application once the connection is restored.
+- Displays 6 web development projects I have worked on in the portfolio section. Gives overview of who I am and how to contact me.
 
 ## Built With
 * Node.js
 * Express.js
 * JavaScript
-* Mongo
-* Mongoose
-* IndexedDB
-* Service Workers
-* Web Manifest
+* React
 
 <br />
 
