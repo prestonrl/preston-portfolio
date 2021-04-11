@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/preston-portfolio/static/css/main.c8516b32.chunk.css",
+    "main.js": "/preston-portfolio/static/js/main.ebf68ff1.chunk.js",
+    "main.js.map": "/preston-portfolio/static/js/main.ebf68ff1.chunk.js.map",
+    "runtime-main.js": "/preston-portfolio/static/js/runtime-main.57667511.js",
+    "runtime-main.js.map": "/preston-portfolio/static/js/runtime-main.57667511.js.map",
+    "static/js/2.b69787a9.chunk.js": "/preston-portfolio/static/js/2.b69787a9.chunk.js",
+    "static/js/2.b69787a9.chunk.js.map": "/preston-portfolio/static/js/2.b69787a9.chunk.js.map",
+    "static/js/3.e1dbefe6.chunk.js": "/preston-portfolio/static/js/3.e1dbefe6.chunk.js",
+    "static/js/3.e1dbefe6.chunk.js.map": "/preston-portfolio/static/js/3.e1dbefe6.chunk.js.map",
+    "index.html": "/preston-portfolio/index.html",
+    "static/css/main.c8516b32.chunk.css.map": "/preston-portfolio/static/css/main.c8516b32.chunk.css.map",
+    "static/js/2.b69787a9.chunk.js.LICENSE.txt": "/preston-portfolio/static/js/2.b69787a9.chunk.js.LICENSE.txt",
+    "static/media/ISS-proximity.92387643.PNG": "/preston-portfolio/static/media/ISS-proximity.92387643.PNG",
+    "static/media/coding-quiz.0eac6013.png": "/preston-portfolio/static/media/coding-quiz.0eac6013.png",
+    "static/media/me.57ed353a.JPG": "/preston-portfolio/static/media/me.57ed353a.JPG",
+    "static/media/miles-ahead.fa795fc6.PNG": "/preston-portfolio/static/media/miles-ahead.fa795fc6.PNG",
+    "static/media/note-taker.75cde096.PNG": "/preston-portfolio/static/media/note-taker.75cde096.PNG",
+    "static/media/tech-blog.31b43977.png": "/preston-portfolio/static/media/tech-blog.31b43977.png",
+    "static/media/weather-dashboard.f2918959.png": "/preston-portfolio/static/media/weather-dashboard.f2918959.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57667511.js",
+    "static/js/2.b69787a9.chunk.js",
+    "static/css/main.c8516b32.chunk.css",
+    "static/js/main.ebf68ff1.chunk.js"
+  ]
+}
