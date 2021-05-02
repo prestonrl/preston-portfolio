@@ -5,11 +5,24 @@ import quiz from "../../assets/projects/coding-quiz.png"
 import note from "../../assets/projects/note-taker.PNG"
 import blog from "../../assets/projects/tech-blog.png"
 import weather from "../../assets/projects/weather-dashboard.png"
+import fan from "../../assets/projects/fan-gear.PNG"
 
 function Portfolio(props) {
     
     return (
         <section>
+            <h2>Fan Gear</h2>
+            <p>A modern e-commerce website for Indiana jones fans</p>
+            <a href="https://github.com/prestonrl/fan-gear">github repository</a>
+            <div className="flex-row">
+                <a href="https://fan-gear.herokuapp.com/" >
+                    <img
+                        src={fan}
+                        alt="Fan Gear"
+                        className="img-thumbnail mx-1"
+                    />
+                </a>
+            </div>
             <h2>Miles Ahead</h2>
             <p>A fitness tracking app</p>
             <a href="https://github.com/prestonrl/miles-ahead">github repository</a>
